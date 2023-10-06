@@ -1,0 +1,17 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../SlotProjectV26.1.srcs/sources_1/new/LFSR.v" \
+"../../../../SlotProjectV26.1.srcs/sources_1/new/SSD.v" \
+"../../../../SlotProjectV26.1.srcs/sources_1/new/anode_control.v" \
+"../../../../SlotProjectV26.1.srcs/sources_1/new/counter.v" \
+"../../../../SlotProjectV26.1.srcs/sources_1/new/oneHz_clk_divider.v" \
+"../../../../SlotProjectV26.1.srcs/sources_1/new/tenHz_clk_divider.v" \
+"../../../../SlotProjectV26.1.srcs/sources_1/new/top.v" \
+"../../../../SlotProjectV26.1.srcs/sources_1/new/value_control.v" \
+"../../../../SlotProjectV26.1.srcs/sim_1/new/tb_top.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
